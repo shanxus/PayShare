@@ -1,0 +1,42 @@
+
+/* Class = "UIButton"; normalTitle = "Show Detail"; ObjectID = "1Io-pq-5yd"; */
+"1Io-pq-5yd.normalTitle" = "Show Detail";
+
+/* Class = "UILabel"; text = "Payment Name"; ObjectID = "45l-3K-9k4"; */
+"45l-3K-9k4.text" = "Payment Name";
+
+/* Class = "UIButton"; normalTitle = "Add Payment"; ObjectID = "Caw-zf-sL4"; */
+"Caw-zf-sL4.normalTitle" = "Add Payment";
+
+/* Class = "UIViewController"; title = "Member Payment Page"; ObjectID = "Ezy-6t-VO7"; */
+"Ezy-6t-VO7.title" = "Member Payment Page";
+
+/* Class = "UILabel"; text = "GIVE"; ObjectID = "Ff5-0F-h7D"; */
+"Ff5-0F-h7D.text" = "GIVE";
+
+/* Class = "UILabel"; text = "Member Name"; ObjectID = "UfM-kG-NvI"; */
+"UfM-kG-NvI.text" = "Member Name";
+
+/* Class = "UINavigationItem"; title = "Detail Page"; ObjectID = "Xgt-fh-sqH"; */
+"Xgt-fh-sqH.title" = "Detail Page";
+
+/* Class = "UILabel"; text = "Paid: 999"; ObjectID = "Xx0-4L-rN6"; */
+"Xx0-4L-rN6.text" = "Paid: 999";
+
+/* Class = "UILabel"; text = "Pay"; ObjectID = "Ypl-3E-9ta"; */
+"Ypl-3E-9ta.text" = "Pay";
+
+/* Class = "UILabel"; text = "Event Name"; ObjectID = "aYF-FQ-PfU"; */
+"aYF-FQ-PfU.text" = "Event Name";
+
+/* Class = "UILabel"; text = "999"; ObjectID = "fhY-db-vls"; */
+"fhY-db-vls.text" = "999";
+
+/* Class = "UINavigationItem"; title = "Event Page"; ObjectID = "hka-aF-8Go"; */
+"hka-aF-8Go.title" = "Event Page";
+
+/* Class = "UIViewController"; title = "Detail Page"; ObjectID = "qoa-86-z6c"; */
+"qoa-86-z6c.title" = "Detail Page";
+
+/* Class = "UILabel"; text = "Member Name"; ObjectID = "y0F-gN-58o"; */
+"y0F-gN-58o.text" = "Member Name";

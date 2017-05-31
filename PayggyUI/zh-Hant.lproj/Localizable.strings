@@ -1,0 +1,52 @@
+/* 
+  Localizable.strings
+  PayggyUI
+
+  Created by Shan on 2017/5/29.
+  Copyright © 2017年 ShanStation. All rights reserved.
+*/
+
+"overviewPageTitle" = "活動";
+"eventPageShowDetailBtn" = "顯示活動款項詳情";
+"paymentPageAddBtn" = "新增款項";
+"addEventTitle" = "新增活動";
+"addEventMessage" = "請輸入活動名稱";
+"eventNamePlaceholder" = "活動名稱";
+"cancelLString" = "取消";
+"addLString" = "新增";
+"changeLString" = "更改";
+"changeEventName" = "更改活動名稱";
+"changeEventNameMessage" = "請輸入這個活動的新名稱";
+"newEventNameLString" = "活動新名稱";
+"doneLString" = "完成";
+"deleteLString" = "刪除";
+
+//
+"addMemberTitleLString" = "新增成員";
+"addMemberMessageLString" = "請輸入成員名稱";
+"newMemberNamePlaceholderLString" = "成員名稱";
+
+"changeNameTitle" = "更改成員名稱";
+"changeNameMessage" = "請輸入成員的新名稱";
+"newMemberNamePlaceholder" = "成員新名稱";
+
+"addPaymentTitle" = "新增款項";
+"addPaymentMessage" = "請輸入這個款項的名稱和金額";
+"addPaymentNamePlaceholder" = "款項名稱";
+"addPaymentValuePlaceholder" = "款項金額";
+
+"changePaymentTitle" = "更改款項";
+"changePaymentMessage" = "請輸入這個款項的新名稱和金額";
+"newPaymentNamePlaceholder" = "款項的新名稱";
+"newPaymentValuePlaceholder" = "款項的新金額";
+
+"detailPageTitle" = "活動款項詳情";
+
+"TAKELString" = "拿";
+"GIVELString" = "給";
+
+
+
+
+
+

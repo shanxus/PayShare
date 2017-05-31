@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F1792A75EEFB77AA10B10B8 /* Pods_PayggyUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0837FECE937875AC5DA7676F /* Pods_PayggyUI.framework */; };
+		7406C66B1ED860A400FB0915 /* EventPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7406C66A1ED860A400FB0915 /* EventPageViewController.swift */; };
+		7406C66D1ED8615D00FB0915 /* EventPageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7406C66C1ED8615D00FB0915 /* EventPageTableViewCell.swift */; };
+		7430DF0B1ED84DB800353441 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7430DF0A1ED84DB800353441 /* AppDelegate.swift */; };
+		7430DF0D1ED84DB800353441 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7430DF0C1ED84DB800353441 /* ViewController.swift */; };
+		7430DF101ED84DB800353441 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7430DF0E1ED84DB800353441 /* Main.storyboard */; };
+		7430DF121ED84DB800353441 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7430DF111ED84DB800353441 /* Assets.xcassets */; };
+		7430DF151ED84DB800353441 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7430DF131ED84DB800353441 /* LaunchScreen.storyboard */; };
+		7430DF1F1ED8513600353441 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7430DF1E1ED8513600353441 /* DataModel.swift */; };
+		7430DF221ED8527A00353441 /* OverviewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7430DF211ED8527A00353441 /* OverviewTableViewCell.swift */; };
+		743784311ED89593007CE66C /* UpdateEventDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743784301ED89593007CE66C /* UpdateEventDelegate.swift */; };
+		743784331ED89DA7007CE66C /* MemberPaymentPageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743784321ED89DA7007CE66C /* MemberPaymentPageTableViewCell.swift */; };
+		743784351ED89E2E007CE66C /* MemberPaymentPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743784341ED89E2E007CE66C /* MemberPaymentPageViewController.swift */; };
+		7439D8931ED946FA006CA00E /* UpdateMemberDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7439D8921ED946FA006CA00E /* UpdateMemberDelegate.swift */; };
+		7439D8951ED9504D006CA00E /* DetailPageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7439D8941ED9504D006CA00E /* DetailPageTableViewCell.swift */; };
+		744954A61EDC145D00B27E36 /* paggyLaunchScreen-01.png in Resources */ = {isa = PBXBuildFile; fileRef = 744954A51EDC145D00B27E36 /* paggyLaunchScreen-01.png */; };
+		7490BC241EDC4ECA00F6EA20 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7490BC221EDC4ECA00F6EA20 /* Localizable.strings */; };
+		74E63B041ED9856900575294 /* DetailPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E63B031ED9856900575294 /* DetailPageViewController.swift */; };
+		74E6B0D81EDA976C00A80743 /* DataModelObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E6B0D71EDA976C00A80743 /* DataModelObject.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0837FECE937875AC5DA7676F /* Pods_PayggyUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PayggyUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A7FF740AB411DBB60B88ACF /* Pods-PayggyUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayggyUI.release.xcconfig"; path = "Pods/Target Support Files/Pods-PayggyUI/Pods-PayggyUI.release.xcconfig"; sourceTree = "<group>"; };
+		545E50BCCEA664E9C8E86C8A /* Pods-PayggyUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayggyUI.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PayggyUI/Pods-PayggyUI.debug.xcconfig"; sourceTree = "<group>"; };
+		7406C66A1ED860A400FB0915 /* EventPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventPageViewController.swift; sourceTree = "<group>"; };
+		7406C66C1ED8615D00FB0915 /* EventPageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventPageTableViewCell.swift; sourceTree = "<group>"; };
+		7430DF071ED84DB800353441 /* PayggyUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PayggyUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7430DF0A1ED84DB800353441 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7430DF0C1ED84DB800353441 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7430DF0F1ED84DB800353441 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7430DF111ED84DB800353441 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7430DF141ED84DB800353441 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7430DF161ED84DB800353441 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7430DF1E1ED8513600353441 /* DataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		7430DF211ED8527A00353441 /* OverviewTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverviewTableViewCell.swift; sourceTree = "<group>"; };
+		743784301ED89593007CE66C /* UpdateEventDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateEventDelegate.swift; sourceTree = "<group>"; };
+		743784321ED89DA7007CE66C /* MemberPaymentPageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemberPaymentPageTableViewCell.swift; sourceTree = "<group>"; };
+		743784341ED89E2E007CE66C /* MemberPaymentPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemberPaymentPageViewController.swift; sourceTree = "<group>"; };
+		7439D8921ED946FA006CA00E /* UpdateMemberDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateMemberDelegate.swift; sourceTree = "<group>"; };
+		7439D8941ED9504D006CA00E /* DetailPageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailPageTableViewCell.swift; sourceTree = "<group>"; };
+		744954A51EDC145D00B27E36 /* paggyLaunchScreen-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "paggyLaunchScreen-01.png"; sourceTree = "<group>"; };
+		7490BC1F1EDC4BE000F6EA20 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		7490BC231EDC4ECA00F6EA20 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		7490BC251EDC4F1200F6EA20 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Main.strings"; sourceTree = "<group>"; };
+		7490BC261EDC4F1200F6EA20 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		7490BC271EDC4F1200F6EA20 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		74E63B031ED9856900575294 /* DetailPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailPageViewController.swift; sourceTree = "<group>"; };
+		74E6B0D71EDA976C00A80743 /* DataModelObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModelObject.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7430DF041ED84DB700353441 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F1792A75EEFB77AA10B10B8 /* Pods_PayggyUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7430DEFE1ED84DB700353441 = {
+			isa = PBXGroup;
+			children = (
+				7430DF091ED84DB800353441 /* PayggyUI */,
+				7430DF081ED84DB800353441 /* Products */,
+				CFCECF11AE127CBEF2ADDCE7 /* Pods */,
+				932D5B4D1347303EB0E88675 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7430DF081ED84DB800353441 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7430DF071ED84DB800353441 /* PayggyUI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7430DF091ED84DB800353441 /* PayggyUI */ = {
+			isa = PBXGroup;
+			children = (
+				744954A71EDC146400B27E36 /* Images */,
+				74E6B0D61EDA973F00A80743 /* Realm Object */,
+				7437842F1ED8956D007CE66C /* Protocol */,
+				7430DF201ED8523900353441 /* TableViewCell */,
+				7430DF1D1ED8511C00353441 /* Model */,
+				7430DF1C1ED8511300353441 /* ViewController */,
+				7430DF0A1ED84DB800353441 /* AppDelegate.swift */,
+				7430DF0E1ED84DB800353441 /* Main.storyboard */,
+				7430DF111ED84DB800353441 /* Assets.xcassets */,
+				7430DF131ED84DB800353441 /* LaunchScreen.storyboard */,
+				7430DF161ED84DB800353441 /* Info.plist */,
+				7490BC221EDC4ECA00F6EA20 /* Localizable.strings */,
+			);
+			path = PayggyUI;
+			sourceTree = "<group>";
+		};
+		7430DF1C1ED8511300353441 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7430DF0C1ED84DB800353441 /* ViewController.swift */,
+				7406C66A1ED860A400FB0915 /* EventPageViewController.swift */,
+				743784341ED89E2E007CE66C /* MemberPaymentPageViewController.swift */,
+				74E63B031ED9856900575294 /* DetailPageViewController.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		7430DF1D1ED8511C00353441 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7430DF1E1ED8513600353441 /* DataModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		7430DF201ED8523900353441 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				7430DF211ED8527A00353441 /* OverviewTableViewCell.swift */,
+				7406C66C1ED8615D00FB0915 /* EventPageTableViewCell.swift */,
+				743784321ED89DA7007CE66C /* MemberPaymentPageTableViewCell.swift */,
+				7439D8941ED9504D006CA00E /* DetailPageTableViewCell.swift */,
+			);
+			name = TableViewCell;
+			sourceTree = "<group>";
+		};
+		7437842F1ED8956D007CE66C /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				743784301ED89593007CE66C /* UpdateEventDelegate.swift */,
+				7439D8921ED946FA006CA00E /* UpdateMemberDelegate.swift */,
+			);
+			name = Protocol;
+			sourceTree = "<group>";
+		};
+		744954A71EDC146400B27E36 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				744954A51EDC145D00B27E36 /* paggyLaunchScreen-01.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		74E6B0D61EDA973F00A80743 /* Realm Object */ = {
+			isa = PBXGroup;
+			children = (
+				74E6B0D71EDA976C00A80743 /* DataModelObject.swift */,
+			);
+			name = "Realm Object";
+			sourceTree = "<group>";
+		};
+		932D5B4D1347303EB0E88675 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0837FECE937875AC5DA7676F /* Pods_PayggyUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CFCECF11AE127CBEF2ADDCE7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				545E50BCCEA664E9C8E86C8A /* Pods-PayggyUI.debug.xcconfig */,
+				2A7FF740AB411DBB60B88ACF /* Pods-PayggyUI.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7430DF061ED84DB700353441 /* PayggyUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7430DF191ED84DB800353441 /* Build configuration list for PBXNativeTarget "PayggyUI" */;
+			buildPhases = (
+				3D5FEDDF6E68D51EB674F4F1 /* [CP] Check Pods Manifest.lock */,
+				7430DF031ED84DB700353441 /* Sources */,
+				7430DF041ED84DB700353441 /* Frameworks */,
+				7430DF051ED84DB700353441 /* Resources */,
+				44AABF881891CE01DDCCF43C /* [CP] Embed Pods Frameworks */,
+				C86C936CD8AB83F49425A1A8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PayggyUI;
+			productName = PayggyUI;
+			productReference = 7430DF071ED84DB800353441 /* PayggyUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7430DEFF1ED84DB700353441 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = ShanStation;
+				TargetAttributes = {
+					7430DF061ED84DB700353441 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2R89L7B5LL;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 7430DF021ED84DB700353441 /* Build configuration list for PBXProject "PayggyUI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hant",
+			);
+			mainGroup = 7430DEFE1ED84DB700353441;
+			productRefGroup = 7430DF081ED84DB800353441 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7430DF061ED84DB700353441 /* PayggyUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7430DF051ED84DB700353441 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7490BC241EDC4ECA00F6EA20 /* Localizable.strings in Resources */,
+				744954A61EDC145D00B27E36 /* paggyLaunchScreen-01.png in Resources */,
+				7430DF151ED84DB800353441 /* LaunchScreen.storyboard in Resources */,
+				7430DF121ED84DB800353441 /* Assets.xcassets in Resources */,
+				7430DF101ED84DB800353441 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3D5FEDDF6E68D51EB674F4F1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		44AABF881891CE01DDCCF43C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PayggyUI/Pods-PayggyUI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C86C936CD8AB83F49425A1A8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PayggyUI/Pods-PayggyUI-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7430DF031ED84DB700353441 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74E63B041ED9856900575294 /* DetailPageViewController.swift in Sources */,
+				7430DF221ED8527A00353441 /* OverviewTableViewCell.swift in Sources */,
+				7406C66D1ED8615D00FB0915 /* EventPageTableViewCell.swift in Sources */,
+				7439D8951ED9504D006CA00E /* DetailPageTableViewCell.swift in Sources */,
+				7430DF0D1ED84DB800353441 /* ViewController.swift in Sources */,
+				7430DF0B1ED84DB800353441 /* AppDelegate.swift in Sources */,
+				7406C66B1ED860A400FB0915 /* EventPageViewController.swift in Sources */,
+				743784331ED89DA7007CE66C /* MemberPaymentPageTableViewCell.swift in Sources */,
+				7430DF1F1ED8513600353441 /* DataModel.swift in Sources */,
+				7439D8931ED946FA006CA00E /* UpdateMemberDelegate.swift in Sources */,
+				743784311ED89593007CE66C /* UpdateEventDelegate.swift in Sources */,
+				743784351ED89E2E007CE66C /* MemberPaymentPageViewController.swift in Sources */,
+				74E6B0D81EDA976C00A80743 /* DataModelObject.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7430DF0E1ED84DB800353441 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7430DF0F1ED84DB800353441 /* Base */,
+				7490BC1F1EDC4BE000F6EA20 /* en */,
+				7490BC251EDC4F1200F6EA20 /* zh-Hant */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7430DF131ED84DB800353441 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7430DF141ED84DB800353441 /* Base */,
+				7490BC261EDC4F1200F6EA20 /* zh-Hant */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		7490BC221EDC4ECA00F6EA20 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7490BC231EDC4ECA00F6EA20 /* en */,
+				7490BC271EDC4F1200F6EA20 /* zh-Hant */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7430DF171ED84DB800353441 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CODE_SIGN_FLAGS = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7430DF181ED84DB800353441 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CODE_SIGN_FLAGS = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7430DF1A1ED84DB800353441 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 545E50BCCEA664E9C8E86C8A /* Pods-PayggyUI.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 2R89L7B5LL;
+				INFOPLIST_FILE = PayggyUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Shan.PayggyUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		7430DF1B1ED84DB800353441 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A7FF740AB411DBB60B88ACF /* Pods-PayggyUI.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 2R89L7B5LL;
+				INFOPLIST_FILE = PayggyUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Shan.PayggyUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7430DF021ED84DB700353441 /* Build configuration list for PBXProject "PayggyUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7430DF171ED84DB800353441 /* Debug */,
+				7430DF181ED84DB800353441 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7430DF191ED84DB800353441 /* Build configuration list for PBXNativeTarget "PayggyUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7430DF1A1ED84DB800353441 /* Debug */,
+				7430DF1B1ED84DB800353441 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7430DEFF1ED84DB700353441 /* Project object */;
+}

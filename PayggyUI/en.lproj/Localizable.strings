@@ -1,0 +1,52 @@
+/* 
+  Localizable.strings
+  PayggyUI
+
+  Created by Shan on 2017/5/29.
+  Copyright © 2017年 ShanStation. All rights reserved.
+*/
+
+"overviewPageTitle" = "Events";
+"eventPageShowDetailBtn" = "Show Payment Detail";
+"paymentPageAddBtn" = "Add Payment";
+"addEventTitle" = "Add Event";
+"addEventMessage" = "Please give this event a name";
+"eventNamePlaceholder" = "Name of the event";
+"cancelLString" = "cancel";
+"addLString" = "add";
+"changeLString" = "Change";
+"changeEventName" = "Change Event Name";
+"changeEventNameMessage" = "Please give this event a new name";
+"newEventNameLString" = "New name of the event";
+"doneLString" = "Done";
+"deleteLString" = "Delete";
+
+//
+"addMemberTitleLString" = "Add New Member";
+"addMemberMessageLString" = "Please give this member a name";
+"newMemberNamePlaceholderLString" = "Name of the member";
+
+"changeNameTitle" = "Change Member Name";
+"changeNameMessage" = "Please give this member a new name";
+"newMemberNamePlaceholder" = "New member name";
+
+"addPaymentTitle" = "Add New Payment";
+"addPaymentMessage" = "Please give this new payment a name and value";
+"addPaymentNamePlaceholder" = "Name of the payment";
+"addPaymentValuePlaceholder" = "Value of the payment";
+
+"changePaymentTitle" = "Change Payment";
+"changePaymentMessage" = "Please give this payment a new name and value";
+"newPaymentNamePlaceholder" = "New name of the payment";
+"newPaymentValuePlaceholder" = "New value of the payment";
+
+"detailPageTitle" = "Event Payment Detail";
+
+"TAKELString" = "TAKE";
+"GIVELString" = "GIVE";
+
+
+
+
+
+

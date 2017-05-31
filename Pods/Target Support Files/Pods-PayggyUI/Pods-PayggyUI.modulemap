@@ -1,0 +1,6 @@
+framework module Pods_PayggyUI {
+  umbrella header "Pods-PayggyUI-umbrella.h"
+
+  export *
+  module * { export * }
+}
